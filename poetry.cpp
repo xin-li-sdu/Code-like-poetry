@@ -3,17 +3,12 @@ void main()
 {
     throw love();
 
-}//�ź�������ζ�Ų�ȱ������ȱҲ����һ������
+}//遗憾或许意味着残缺，但残缺也是另一种完整
 
 
 
 
 if (me.getDistanceTo(you.position) < 200) {
-
-    me.setFeelings({
-
-         inLove: true,
-
-        });
-}
-//ͻȻ��ϲ������һƳ����ʣ�һ������̫��ǳ���վ�����̫�԰ף�Ҳ������ü����ȥ����ֻ�п���һ�ۣ���һ������
+        me.setFeelings(true);
+    }
+//突然很喜欢惊鸿一瞥这个词，一见钟情太肤浅，日久生情太苍白，也许别人眉来眼去，我只有看你一眼，但一眼万年
